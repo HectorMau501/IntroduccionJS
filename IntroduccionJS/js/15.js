@@ -38,4 +38,8 @@ resultado = carrito.filter(function(producto){
     return producto.precio > 400;
 });
 
+resultado = carrito.filter( function(producto){
+    return producto.nombre !== 'Celular';
+});
+
 console.log(resultado);
